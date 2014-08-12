@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+*{
+	font-family: 'Roboto Regular';
+	background-color: rgba(236, 240, 241,1.0)
+}
+div{
+	/*border: 2px red dashed;*/
+}
+
+#navbarbg {
+	height:50px;
+	width:1500px;
+	background-color: rgba(52, 152, 219,0.8);
+	display: inline-block;
+	padding-left: 100px;
+	padding-right: 400px;
+	position: fixed;
+
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(52, 152, 219,0.8);
+}
+li{
+	float: left;
+}
+.navbarlink{
+	float: left;
+	padding-left: 140px;
+	padding-right: 20px;
+	padding-top: 15px;
+	background-color: rgba(52, 152, 219,0);
+	letter-spacing: 2px;
+	/*margin: auto;*/
+}
+#name{
+	font-weight: bold;
+	font-size: 40px;
+}
+#content{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%
+}
+a{
+	text-decoration: none;
+	background-color: rgba(52, 152, 219,0);
+	color: black;
+}
+a:hover{
+	color: #9b59b6;
+}
+#description{
+	font-size: 25px;
+}
+	
