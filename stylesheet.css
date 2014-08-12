@@ -16,6 +16,7 @@ div{
 	display: inline-block;
 	padding-left: 100px;
 	padding-right: 400px;
+	margin-right: 1000px;
 	position: fixed;
 
 }
@@ -65,4 +66,10 @@ a:hover{
 }
 #intro{
 	font-size: 25px
+}
+#content #contact #mail{
+	color: blue;
+} 
+#content #contact #mail:hover{
+	color: #9b59b6;	
 }
