@@ -55,9 +55,9 @@ li{
 a:link{
 	text-decoration: none;
 	/*background-color: rgba(52, 152, 219,0);*/
-	color: red;
+	color: #2980b9;
 }
-a:hover{
+a:hover, a:active{
 	color: #9b59b6;
 }
 #description{
@@ -71,13 +71,13 @@ a:hover{
 #intro{
 	font-size: 25px
 }
-#git #content #contact #mail{
+/*#git #content #contact #mail{
 	color: #2980b9;
-} 
-#git #content #contact #mail:hover{
+} */
+/*#git #content #contact #mail:hover{
 	color: #9b59b6;	
-}
-#project1 p{
+}*/
+.projects p{
 	font-size: 20px;
 }
 #index ,#home .navbarlink .home{
