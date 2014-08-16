@@ -52,10 +52,10 @@ li{
 	margin-right: auto;
 	width: 70%
 }
-a{
+a:link{
 	text-decoration: none;
-	background-color: rgba(52, 152, 219,0);
-	color: black;
+	/*background-color: rgba(52, 152, 219,0);*/
+	color: red;
 }
 a:hover{
 	color: #9b59b6;
