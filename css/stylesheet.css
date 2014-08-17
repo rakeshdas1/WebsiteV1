@@ -43,6 +43,9 @@ li{
 	letter-spacing: 2px;
 	margin: 0;
 }
+.navbarlink{
+	text-decoration: none;
+}
 #name{
 	font-weight: bold;
 	font-size: 40px;
@@ -52,11 +55,11 @@ li{
 	margin-right: auto;
 	width: 70%
 }
-a:link{
+/*a:link:not(.navbarlink){
 	text-decoration: none;
-	/*background-color: rgba(52, 152, 219,0);*/
+	background-color: rgba(52, 152, 219,0);
 	color: #2980b9;
-}
+}*/
 a:hover, a:active{
 	color: #9b59b6;
 }
