@@ -35,6 +35,8 @@ li{
 	float: left;
 }
 .navbarlink{
+	margin: 0 auto;
+	padding: 0 auto;
 	float: left;
 	padding-left: 140px;
 	padding-right: 20px;
@@ -42,10 +44,10 @@ li{
 	background-color: rgba(52, 152, 219,0);
 	letter-spacing: 2px;
 	margin: 0;
-}
-.navbarlink{
 	text-decoration: none;
+
 }
+
 #name{
 	font-weight: bold;
 	font-size: 40px;
@@ -55,14 +57,7 @@ li{
 	margin-right: auto;
 	width: 70%
 }
-/*a:link:not(.navbarlink){
-	text-decoration: none;
-	background-color: rgba(52, 152, 219,0);
-	color: #2980b9;
-}*/
-a:hover, a:active{
-	color: #9b59b6;
-}
+
 #description{
 	font-size: 25px;
 }
@@ -74,17 +69,16 @@ a:hover, a:active{
 #intro{
 	font-size: 25px
 }
-/*#git #content #contact #mail{
-	color: #2980b9;
-} */
-/*#git #content #contact #mail:hover{
-	color: #9b59b6;	
-}*/
 .projects p{
 	font-size: 20px;
 }
-#index ,#home .navbarlink .home{
-
-	/*font-size: 50px;*/ 
-
+.projects p a{
+	color: #e74c3c;
 }
+.home, a:link, a:visited{
+	text-decoration: none;
+	background-color: rgba(52, 152, 219,0);
+	color: #474747;
+	font-weight:bold;
+}
+
