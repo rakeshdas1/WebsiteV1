@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
 body{
-	margin: 0;
-	padding: 0;
+	margin: 0 auto;
+	padding: 0 auto;
 }
 
 *{
@@ -15,10 +15,10 @@ div{
 
 #navbarbg {
 	height:50px;
-	width:1500px;
+	width:1100px;
 	background-color: rgba(52, 152, 219,0.8);
 	display: inline-block;
-	padding-left: 100px;
+	padding-left: 200px;
 	padding-right: 400px;
 	margin:0;
 	position: top left;
@@ -81,4 +81,20 @@ li{
 	color: #474747;
 	font-weight:bold;
 }
+.home, a:hover{
+	text-decoration: none;
+	background-color: rgba(52, 152, 219,0);
+	color: #e74c3c;
+	font-weight:bold;
+}
+footer{
+	height:118px;
+	width: 1100px;
+	background-color: rgba(52, 152, 219,0.8);
+	display: inline-block;
+	padding-top: 47px;
+	padding-left: 100px;
+	padding-right: 400px;
+	margin:0;
 
+}
