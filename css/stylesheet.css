@@ -98,3 +98,9 @@ footer{
 	margin:0;
 
 }
+footer img{
+	height: 40px;
+	width: 40px;
+	margin-top: -40px;
+	background-color: rgba(52, 152, 219,0);
+}

@@ -1,5 +1,3 @@
-$(document).ready(function(){
-	$("#content").fadeIn("slow", function(){
-
-	})
+$(window).load(function(){
+	$("#content").fadeIn("slow");
 })
